@@ -1,4 +1,12 @@
-html, body, section, img, h1, h2, p, article {
+
+
+
+html, header, aside, 
+body, section, img, 
+h1, h2, ul, ol, li, 
+p, article, figure, 
+figcaption, select, 
+option, label, textarea  {
   margin: 0;   
   border: 0; 
   padding: 0; 
@@ -14,6 +22,10 @@ body {
   line-height: 1.5; 
 }
 
+li {
+  list-style: none; 
+}
+
 img {
-  width: inherit; 
+  width: 100%; 
 }
