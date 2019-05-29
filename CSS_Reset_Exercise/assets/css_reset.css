@@ -1,0 +1,19 @@
+html, body, section, img, h1, h2, p, article {
+  margin: 0;   
+  border: 0; 
+  padding: 0; 
+
+  font: inherit; 
+  text-align: inherit; 
+  text-decoration: inherit; 
+  color: inherit; 
+  background: transparent; 
+}
+
+body {
+  line-height: 1.5; 
+}
+
+img {
+  width: inherit; 
+}
